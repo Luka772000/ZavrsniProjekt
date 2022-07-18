@@ -1,0 +1,31 @@
+<mat-card>
+    <mat-card-content class="content">
+        UNESITE SVOJE PODATKE
+        <table class="example-full-width" cellspacing="0">
+            <tr>
+                <mat-form-field style="width:100%" class="input" appearance="fill">
+                    <mat-label>Broj kartice</mat-label>
+                    <mat-icon matPrefix>credit_card</mat-icon>
+                    <input maxlength="12" matInput type="password">
+                </mat-form-field>
+            </tr>
+            <tr>
+                <td>
+                    <mat-form-field style="width:45%" class="input" appearance="fill">
+                        <mat-label>Datum</mat-label>
+                        <mat-icon matPrefix>date_range</mat-icon>
+                        <input matInput placeholder="Ex. 10/21">
+                    </mat-form-field>
+                    <mat-form-field style="width:45%;margin-left:10%" class="input" appearance="fill">
+                        <mat-label>CVC</mat-label>
+                        <mat-icon matPrefix>lock</mat-icon>
+                        <input matInput maxlength="3" placeholder="Ex. 123" type="password">
+                    </mat-form-field>
+                </td>
+            </tr>
+        </table>
+        <mat-card-actions>
+            <button style="width:60%;margin-left:20%;margin-right:20%" color="primary"  mat-raised-button>PLATI {{total}}KM</button>
+        </mat-card-actions>
+    </mat-card-content>
+</mat-card>

@@ -1,0 +1,35 @@
+.red {
+    width: 100%;
+}
+
+.input {
+    color: black;
+}
+
+::ng-deep .mat-form-field-label {
+    /*change color of label*/
+    color: rgb(108, 108, 108) !important;
+    padding: 5px;
+
+}
+
+::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: rgb(255, 255, 255) !important;
+
+}
+
+::ng-deep .mat-form-field-value {
+    color: rgb(108, 108, 108) !important;
+}
+
+::ng-deep .mat-form-field-input {
+    color: rgb(0, 0, 0) !important;
+}
+
+:ng-deep .mat-input-element::placeholder {
+    color: rgb(108, 108, 108)
+}
+.paybutton{
+    
+}

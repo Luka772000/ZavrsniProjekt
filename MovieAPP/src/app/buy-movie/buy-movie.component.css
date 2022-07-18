@@ -1,0 +1,16 @@
+
+.karticaholder{
+    margin-top: 15px; ;
+    width:33%;  
+    height: 100%; 
+    text-align: center;
+    display: inline-block !important
+}
+
+@media (max-width: 768px) {
+    .karticaholder{
+        width: 49%;
+        height: 100%;
+        margin-left:1%
+    }
+  }
